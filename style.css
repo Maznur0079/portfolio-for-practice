@@ -21,12 +21,15 @@ h2 {
 
 .flexible-container {
     display: flex;
+    padding-right: 30px;
+    padding-left: 10px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
 }
 
 .visit-button {
@@ -57,4 +60,35 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
 
+}
+
+.service-item {
+    margin: 40px;
+    box-shadow: 10px 10px 30px gray;
+    padding-left: 10px;
+    border-radius: 5px;
+
+}
+
+.service-area {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#digital {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(236, 10, 236), rgb(109, 206, 245));
+    border-image-slice: 1;
+}
+
+#seo {
+    border-left: 5px solid;
+    border-image: linear-gradient(green, yellow);
+    border-image-slice: 3;
+}
+
+footer p {
+    text-align: center;
 }
